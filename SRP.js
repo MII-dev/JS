@@ -37,6 +37,10 @@ function srp(choose){
                 alert('Try again')
             }
             break;
+        default:
+            alert('Wrong enter. Try again')
+            askChoose()
+            break;
     }
 }
 
